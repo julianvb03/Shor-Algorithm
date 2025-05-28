@@ -1,0 +1,5 @@
+# Jupyter y componentes esenciales
+jupyter==1.0.0
+jupyterlab==4.0.10
+notebook==7.0.6
+ipykernel==6.27.1
