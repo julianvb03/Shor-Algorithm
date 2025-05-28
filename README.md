@@ -49,3 +49,4 @@ m^8 \equiv 1(N) \\
 $$
 
 ## Computación cuantica en el algoritmo
+Para poder ejecutar lo planteado anteriormente hay una fase fundamental del proceso, este es encontrar el periodo de una función, y es precisamente este aspecto el que se realiza con computación cuantica, el proceso general es el siguiente.
