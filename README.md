@@ -49,4 +49,6 @@ m^8 \equiv 1(N) \\
 $$
 
 ## Computación cuantica en el algoritmo
-Para poder ejecutar lo planteado anteriormente hay una fase fundamental del proceso, este es encontrar el periodo de una función, y es precisamente este aspecto el que se realiza con computación cuantica, el proceso general es el siguiente.
+Para poder ejecutar lo planteado anteriormente hay una fase fundamental del proceso, este es encontrar el periodo de una función, y es precisamente este aspecto el que se realiza con computación cuantica, el proceso general es el siguiente. \
+Primero partiremos de la base de dado el número a descomponer en factores primos, necesitaremos `M` qubits para representarlo por ejemplo con 3 qubits podemos representar números desde 0 a 7 o `2^n -1`, nuestro objetivo es encontrar el periodo en ese subconjunto `M` de números. \
+La idea a grandes rasgos es primero tener 2 conjuntos de de qubits, dependiendo del valor de `M`, aplicamos hadamar al primer conjunto para que esten en superposición, y luego aplicar `Uf` que sería nuestra función oraculo que dados los valores de `x` del primer conjunto de qubits nos almacene los valores de `F(x)` en el segundo conjunto, esto dicha puerta `Uf` 
